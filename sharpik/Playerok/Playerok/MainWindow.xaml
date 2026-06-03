@@ -1,0 +1,97 @@
+﻿<Window x:Class="Playerok.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Playerok"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="6*"/>
+           
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Source="/Resources/icon.png"/>
+            <TextBlock Grid.Column="1" FontSize="24" TextAlignment="Center" FontWeight="SemiBold" VerticalAlignment="Center" Text="Каталог игр"/>
+            <Button Grid.Column="2" Name="btnBack" Content="Назад" Background="Green" Click="btnBack_Click"/>
+        </Grid>
+
+       
+            <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <ListBox Name="lbGames" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="Black" BorderThickness="2" Padding="15">
+                            <Grid HorizontalAlignment="Stretch">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                                    <Image MaxHeight="100px" MaxWidth="100px" Source="{Binding Path=GameImage}"/>
+                                </Border>
+                                <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                                    <StackPanel  Grid.Column="1">
+                                        <TextBlock FontSize="18" FontWeight="SemiBold" Text="{Binding Path=NamesGames.Name}"/>
+                                        <TextBlock Text="{Binding Path=CetagoriesGames.Name, StringFormat=Жанр: {0}}"/>
+                                        <TextBlock Text="{Binding Path=DevelopersGames.Name, StringFormat=Разработчик: {0}}"/>
+                                        <TextBlock Text="{Binding Path=Description}"/>
+                                        <TextBlock Margin="0,20,0,0" Text="{Binding Path=CostGame, StringFormat=Цена: {0}}"/>
+                                    </StackPanel>
+                                </Border>
+                            </Grid>
+                       </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="Фильтры" FontSize="18" FontWeight="SemiBold" TextAlignment="Center"/>
+
+                <StackPanel Grid.Row="1">
+                    <TextBlock Text="Сортировка по стоимости" TextAlignment="Center"/>
+                    <RadioButton Name="rbUp" Content="По возрастанию" Checked="rbUp_Checked"/>
+                    <RadioButton Name="rbDown" Content="По убыванию" Checked="rbDown_Checked"/>
+                </StackPanel>
+
+
+                <StackPanel Grid.Row="2">
+                    <TextBlock Text="Поиск по жанру" TextAlignment="Center"/>
+                    <ComboBox Name="cbCategory" SelectionChanged="cbCategory_SelectionChanged"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="3">
+                    <TextBlock Text="Поиск по названию" TextAlignment="Center"/>
+                    <TextBox Name="tbxSearch" TextAlignment="Center" TextChanged="tbxSearch_TextChanged"/>
+                </StackPanel>
+
+                <Button Grid.Row="4" Name="btnAdd" Content="Добавление игры" Background="Green" Click="btnAdd_Click" Width="100px" Height="50px"/>
+            </Grid>
+        </Grid>
+
+        
+        
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="btnConvert">Convert</string>
+    <string name="InfoFrom">From:</string>
+    <string name="InfoTo">To:</string>
+    <string name="tvTo">...</string>
+
+    <string name="empty">Ошибка! Пустое поле</string>
+    <string name="noNum">Ошибка! Не число</string>
+    <string name="negNum">Ошибка! Отрицательное число</string>
+
+</resources>

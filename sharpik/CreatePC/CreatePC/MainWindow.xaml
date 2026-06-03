@@ -1,0 +1,117 @@
+﻿<Window x:Class="CreatePC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CreatePC"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <TextBlock Text="Назначение ПК"/>
+            <ComboBox >
+                <ComboBoxItem Content="Офисный" IsSelected="True"/>
+                <ComboBoxItem Content="Игровой"/>
+                <ComboBoxItem Content="Домашний"/>
+            </ComboBox>
+        </StackPanel>
+
+        <GroupBox Grid.Row="1" Header="Комлектующие">
+            <StackPanel>
+            <RadioButton Name="rbWin" Content="Windows - 7000 руб." Checked="Recalc"/>
+            <RadioButton Name="rbLin" Content="Linux - 2000 руб." Checked="Recalc"/>
+            </StackPanel>
+        </GroupBox>
+        
+        <GroupBox Grid.Row="2" Header="Антивирус">
+            <StackPanel>
+                <RadioButton Name="rbKasp" Content="Kaspersky - 3000руб." Checked="Recalc"/>
+                <RadioButton Name="rbSpider" Content="Spider Web - 1500 руб." Checked="Recalc"/>
+                <RadioButton Name="rb360" Content="360 Total Security - 5000 руб." Checked="Recalc"/>
+            </StackPanel>
+        </GroupBox>
+        
+        <GroupBox Grid.Row="3" Header="Дополнительные модули">
+            <StackPanel>
+                <CheckBox Name="cbBl" Content="Bluetooth - 500руб." Checked="Recalc" Unchecked="Recalc"/>
+                <CheckBox Name="cbEt" Content="Ethernet - 250 руб." Checked="Recalc" Unchecked="Recalc"/>
+                <CheckBox Name="cbSc" Content="Звуковая карта - 1500 руб." Checked="Recalc" Unchecked="Recalc"/>
+                <CheckBox Name="cbCd" Content="CD привод - 1000 руб." Checked="Recalc" Unchecked="Recalc"/>
+            </StackPanel>
+        </GroupBox>
+
+
+
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="Процессор">
+            <StackPanel>
+                <RadioButton Name="rbAmd" Content="AMD - 5000 руб." Checked="Recalc"/>
+                <RadioButton Name="rbIntel" Content="Intel - 10000 руб." Checked="Recalc"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="2" Grid.Column="1" Header="Блок питания">
+            <StackPanel>
+                <RadioButton Name="rb60" Content="60% - 500 руб." Checked="Recalc"/>
+                <RadioButton Name="rb70" Content="70% - 1000 руб." Checked="Recalc"/>
+                <RadioButton Name="rb80" Content="80% - 1500 руб." Checked="Recalc"/>
+                <RadioButton Name="rb90" Content="90% - 2000 руб." Checked="Recalc"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Header="Видеокарта">
+            <StackPanel Orientation="Horizontal">
+            
+                <StackPanel Margin="0,0,20,0">
+                    <RadioButton Name="rbNv" Content="Nvidia" Checked="rbNv_Checked"/>
+                    <RadioButton Name="rbAm" Content="AMD" Checked="rbAm_Checked"/>
+                    <RadioButton Name="rbBase" Content="Базовая карта - 12790 руб."/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <ComboBox MinWidth="100px" Name="cboxVideoCard" SelectionChanged="Recalc">
+                    </ComboBox>
+     
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="1" Grid.Column="2" Header="Материнка">
+            <StackPanel>
+                <RadioButton Name="rbGig" Content="Gigabite - 2000 руб." Checked="Recalc"/>
+                <RadioButton Name="rbAss" Content="ASS Rock - 1500 руб." Checked="Recalc"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="2" Grid.Column="2" Header="Оперативная память">
+            <StackPanel>
+                <RadioButton Name="rb05" Content="0,5 Gb - 500 руб." Checked="Recalc"/>
+                <RadioButton Name="rb15" Content="1,5 Gb - 1500 руб." Checked="Recalc"/>
+                <RadioButton Name="rb2" Content="2 Gb - 4000 руб." Checked="Recalc"/>
+                <RadioButton Name="rb4" Content="4 Gb - 8000 руб." Checked="Recalc"/>
+            </StackPanel>
+        </GroupBox>
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+
+            <TextBlock Text="Итого:" FontWeight="Bold" Width="100px"/>
+            <TextBlock Name="tbPrice" Width="100px"/>
+        </StackPanel>
+
+        <CheckBox Name="cbCreatePc" Grid.Row="4" Grid.Column="2" Content="Собрать ПК - 2500 руб."  Checked="Recalc" Unchecked="Recalc"/>
+        
+    </Grid>
+</Window>

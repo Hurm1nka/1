@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activities</string>
+    <string name="act_open">Open Dialog</string>
+    <string name="act_exit">Exit App</string>
+    <string name="act2_ok">OK</string>
+    <string name="act2_back">Back</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="infoA">A:</string>
+    <string name="infoB">B:</string>
+    <string name="infoResult">Result:</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnSub">Subtract</string>
+    <string name="btnMult">Multiply</string>
+    <string name="btnDivide">Divide</string>
+    <string name="btnSin">Sin</string>
+    <string name="btnCos">Cos</string>
+    <string name="btnTan">Tan</string>
+    <string name="btnPi">Pi</string>
+    <string name="btnE">E</string>
+
+</resources>

@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\adminpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\adminpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\authorize\\authorize\\model\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{AD9AEB2B-2673-4410-8DA4-2C83EC74644E}|Authorize\\Authorize.csproj|solutionrelative:authorize\\model\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 88,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Authorize\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\MainWindow.xaml",
+              "RelativeToolTip": "Authorize\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T19:30:32.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\AdminPanel.xaml.cs",
+              "RelativeDocumentMoniker": "Authorize\\AdminPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\AdminPanel.xaml.cs*",
+              "RelativeToolTip": "Authorize\\AdminPanel.xaml.cs*",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwGkAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T19:29:49.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Authorize\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\App.xaml.cs",
+              "RelativeToolTip": "Authorize\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T18:45:21.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\App.xaml",
+              "RelativeDocumentMoniker": "Authorize\\App.xaml",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\App.xaml",
+              "RelativeToolTip": "Authorize\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T18:45:18.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\App.config",
+              "RelativeDocumentMoniker": "Authorize\\App.config",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\App.config",
+              "RelativeToolTip": "Authorize\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-01T18:45:17.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\Model\\Model.edmx",
+              "RelativeDocumentMoniker": "Authorize\\Model\\Model.edmx",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\Model\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "Authorize\\Model\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-06-01T18:34:09.204Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Authorize\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Authorize\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwEcAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T18:33:16.621Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 57,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\AdminPanel.xaml",
+              "RelativeDocumentMoniker": "Authorize\\AdminPanel.xaml",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Authorize\\Authorize\\AdminPanel.xaml",
+              "RelativeToolTip": "Authorize\\AdminPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-01T19:01:34.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

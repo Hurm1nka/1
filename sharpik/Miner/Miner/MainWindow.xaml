@@ -1,0 +1,59 @@
+﻿<Window x:Class="Miner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Miner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Canvas Name="cnDisplay" Visibility="Collapsed" Grid.Column="0" Background="AliceBlue" MouseMove="cnDisplay_MouseMove">
+            <Image Name="imgMine" Source="/Resources/mina.png" MaxHeight="100px" MaxWidth="100px" MouseDown="imgMine_MouseDown"/>
+        </Canvas>
+
+        <GroupBox Grid.Column="1" Header="Меню">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                    <StackPanel>
+                    <TextBlock Text="Количество мин"/>
+                    <TextBox Name="tbxSetCountMine"/>
+                    <TextBlock Text="Время в минутах"/>
+                    <TextBox Name="tbxSetTime"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1">
+                    <TextBlock Text="X"/>
+                    <TextBox Name="tbxX" IsReadOnly="True"/>
+                    <TextBlock Text="Y"/>
+                    <TextBox Name="tbxY" IsReadOnly="True"/>
+                    <TextBlock Text="Расстояние до цели"/>
+                    <TextBox Name="tbxDistance" IsReadOnly="True"/>
+                   </StackPanel>
+
+                <StackPanel Grid.Row="2">
+                    <TextBlock Text="Время в минутах/секундах"/>
+                    <TextBox Name="tbxTime" IsReadOnly="True"/>
+
+                    <TextBlock Text="Осталось мин"/>
+                    <TextBox Name="tbxCountMine" IsReadOnly="True"/>
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Center" Grid.Row="3" Orientation="Horizontal">
+                    <Button Name="btnStart" Content="Старт"  Width="50px" Height="25" Click="btnStart_Click"/>
+                    <Separator Visibility="Hidden" Width="20px"/>
+                    <Button Name="btnExit"  Content="Выход" Width="50px" Height="25" Click="btnExit_Click"/>
+                  </StackPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

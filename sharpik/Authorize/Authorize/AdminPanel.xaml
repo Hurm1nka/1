@@ -1,0 +1,87 @@
+﻿<Window x:Class="Authorize.AdminPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Authorize"
+        mc:Ignorable="d"
+        Title="AdminPanel" Height="450" Width="800">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="0" Source="/Resources/icon.png"/>
+                <TextBlock TextAlignment="Center" VerticalAlignment="Center" Grid.Column="1" FontSize="24" FontWeight="SemiBold" Text="Админ панель"/>
+                <Button Grid.Column="2" Name="btnExit" Content="Выход" MaxHeight="50" MaxWidth="100" Background="Green" Click="btnExit_Click"/>
+
+               
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <GroupBox Header="Добавление пользователя" >
+
+                    <StackPanel>
+                    <TextBlock Text="Введите логин"/>
+                    <TextBox Name="tbxSetLogin"/>
+                    <TextBlock Text="Введите пароль"/>
+                        <TextBox Name="tbxSetPassword"/>
+                      <TextBlock Text="Роль"/>
+                        <ComboBox Name="cbSetRole"/>
+                        <Separator Height="10px" Visibility="Hidden"/>
+                        <CheckBox Content="Блокировать"/>
+
+                    </StackPanel>
+
+                </GroupBox>
+
+
+                <GroupBox Grid.Column="2" Header="Изменение пользователя">
+
+                    <StackPanel>
+                        <TextBlock Text="Выбрать пользователя"/>
+                        <ComboBox Name="cbUsers" SelectionChanged="cbUsers_SelectionChanged"/>
+                        <TextBlock Text="Логин"/>
+                        <TextBox Name="tbxLogin"/>
+                        <TextBlock Text="Пароль"/>
+                        <TextBox Name="tbxPassword"/>
+                        <TextBlock Text="Роль"/>
+                        <ComboBox Name="cbRole"/>
+                        <Separator Height="10px" Visibility="Hidden"/>
+                        <CheckBox Name="cbxBlock" Content="Блокировать"/>
+                    </StackPanel>
+                    
+                </GroupBox>
+                <Button Grid.Row="1" Name="btnAdd" Width="100" Content="Добавить" Height="50" Background="Gold" Click="btnAdd_Click"/>
+                <Button Grid.Column="1" Grid.Row="1" Name="btnEdit" Width="100" Content="Изменить" Height="50" Background="Gold" Click="btnEdit_Click"/>
+            </Grid>
+
+
+
+
+        </Grid>
+
+    </Grid>
+</Window>

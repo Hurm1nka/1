@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\apteka\\apteka\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\apteka\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\apteka\\apteka\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\apteka\\apteka\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\apteka\\apteka\\model\\medicationsname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\model\\medicationsname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\apteka\\apteka\\model\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\model\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|c:\\users\\tanas\\desktop\\\u21164 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u043F\u0430\\\u043C\u0434\u043A.01.01\\projects\\apteka\\apteka\\model\\medications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\model\\medications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\apteka\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\apteka\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1FED87D2-6FDE-444B-A367-F785DEBBC26B}|Apteka\\Apteka.csproj|solutionrelative:apteka\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicationsName.cs",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Model\\MedicationsName.cs",
+              "RelativeDocumentMoniker": "Apteka\\Model\\MedicationsName.cs",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Model\\MedicationsName.cs",
+              "RelativeToolTip": "Apteka\\Model\\MedicationsName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:31:09.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Model\\Model.edmx",
+              "RelativeDocumentMoniker": "Apteka\\Model\\Model.edmx",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Model\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "Apteka\\Model\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-05-23T15:23:57.616Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\App.xaml",
+              "RelativeDocumentMoniker": "Apteka\\App.xaml",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\App.xaml",
+              "RelativeToolTip": "Apteka\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-23T15:01:18.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Apteka\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\App.xaml.cs",
+              "RelativeToolTip": "Apteka\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T14:54:54.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Medications.cs",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Model\\Medications.cs",
+              "RelativeDocumentMoniker": "Apteka\\Model\\Medications.cs",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Model\\Medications.cs",
+              "RelativeToolTip": "Apteka\\Model\\Medications.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T14:19:00.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\packages.config",
+              "RelativeDocumentMoniker": "Apteka\\packages.config",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\packages.config",
+              "RelativeToolTip": "Apteka\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-22T21:36:22.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\App.config",
+              "RelativeDocumentMoniker": "Apteka\\App.config",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\App.config",
+              "RelativeToolTip": "Apteka\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-22T21:36:19.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Catalog.xaml",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Catalog.xaml",
+              "RelativeDocumentMoniker": "Apteka\\Catalog.xaml",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Catalog.xaml",
+              "RelativeToolTip": "Apteka\\Catalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-22T20:22:43.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Catalog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Catalog.xaml.cs",
+              "RelativeDocumentMoniker": "Apteka\\Catalog.xaml.cs",
+              "ToolTip": "C:\\Users\\tanas\\Desktop\\\u21164 \u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u041F\u0410\\\u041C\u0414\u041A.01.01\\Projects\\Apteka\\Apteka\\Catalog.xaml.cs",
+              "RelativeToolTip": "Apteka\\Catalog.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T20:07:37.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

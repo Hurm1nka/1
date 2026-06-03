@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CheckList</string>
+    <string name="infoApple">Apple</string>
+    <string name="infoStraw">Strawberry</string>
+    <string name="infoBlue">Blueberry</string>
+    <string name="infoPotat">Potatoes</string>
+
+    <string name="btnCalc">Calculate</string>
+</resources>
