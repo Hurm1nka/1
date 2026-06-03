@@ -1,0 +1,42 @@
+mov @array,r1
+mov 0,r0
+mov 0a,r3
+
+cycle:
+mov (r1),r2
+and 1,r2
+jnz odd
+mov (r1),r2
+xor ff00,r2
+add r2,r0
+mov r2,(r1)+
+jmp next
+
+odd:
+mov (r1),r2
+xor ff00,r2
+mov r2,(r1)+
+
+next:
+sub 1,r3
+jnz cycle
+
+mov0,r1
+mov 0,r2
+mov 0,r3
+stop
+
+array:
+data FF01
+data FF02
+data FF03
+data FF04
+data FF05
+data FF06
+data FF07
+data FF08
+data FF09
+data FF0a
+
+
+Результаты в r0 без знака
