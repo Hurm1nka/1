@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Словарь</string>
+    <string name="label_key">Key</string>
+    <string name="label_value">Value</string>
+    <string name="hint_key">Слово</string>
+    <string name="hint_value">Перевод</string>
+    <string name="btn_insert">Insert</string>
+    <string name="btn_replace">Update</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_delete">Delete</string>
+    <string name="delete_title">Удаление</string>
+    <string name="delete_message">Удалить запись с ключом «%1$s»?</string>
+    <string name="error_title">Ошибка</string>
+    <string name="error_empty_key">Введите ключ (слово).</string>
+    <string name="error_duplicate_key">Ключ «%1$s» уже есть в словаре. Добавление невозможно.</string>
+    <string name="error_key_not_found">Ключ «%1$s» не найден в таблице.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Отмена</string>
+</resources>

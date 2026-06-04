@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">ToDo</string>
-    <string name="btn_add">Add</string>
-    <string name="btn_edit">Modify</string>
-    <string name="btn_delete">Remove</string>
-</resources>
