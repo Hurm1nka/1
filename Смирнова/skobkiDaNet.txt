@@ -1,0 +1,41 @@
+MOV @STRING, R1
+MOV 0,       R0
+
+LOOP:
+	MOVB (R1)+, R2	; оепемня аюирю б R2 я сбекхвемхел хмдейяю ярпнйх
+	CMPB 2E,    R2	; япюбмемхе RX-RY
+	JZ   END	; еякх рнвйю рн йнмеж
+
+	MOV  28,    R3
+	CMPB R2,    R3	; япюбмемхе RX-RY
+	JZ   OPEN	; еякх нрйп. яйнайю рн оепеундхл
+
+	MOV  29,    R3
+	CMPB R2,    R3
+	JZ   CLOSE	; еякх гюйп. яйнайю рн оепеундхл
+	JMP  LOOP	; еякх кебши яхлбнк мювхмюел жхйк гюмнбн
+
+	OPEN:
+		ADD 1, R0
+		JMP LOOP
+
+	CLOSE:
+		CMP 0, R0
+		JZ  NO_BALANCE	; еякх гюйп. яйнайю охьеряъ аег нрйп. рн ме аюкюмя, оепеундхл
+		SUB 1, R0
+		JMP LOOP
+
+END:
+	CMP 0, R0
+	JZ  BALANCE
+
+NO_BALANCE:
+	MOV 0, R0
+	STOP
+
+BALANCE:
+	MOV 1, R0
+	STOP
+
+STRING:
+	DATA "((123))."

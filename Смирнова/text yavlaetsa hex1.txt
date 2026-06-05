@@ -1,0 +1,45 @@
+MOV @TEXT, R1  ; йкюдел рейяр б R1
+MOV 0, R0 ; йкюдел 0 б R0, хгмювюкэмн ме ъбкъеряъ
+
+LOOP:
+	MOVB (R1)+, R2	; оепелеыюел лкюдьхи аюир
+               		; ядбхцюъ сйюгюрекэ б ярпнйе +1
+
+	CMPB 68, R2 ; еякх б R2 кефхр H, рн щрн йнмеж       ; 68-68 = 0
+	JZ END      ; еякх 0 опшцюел й ткюцс END
+
+	MOV 30, R3
+	CMPB R2,R3 ; RX-RY
+	JL THIS_LETTER ; еякх яхлбнк < 30 => асйбю
+	MOV 39, R3
+	CMPB R2,R3 ; RX-RY
+	JG THIS_LETTER ; еякх яхлбнк > 39 => асйбю
+	JMP THIS_DIGIT ; щрн жхтпю, опшцюел
+                                             
+	THIS_LETTER:
+		MOV 41, R3
+		CMPB R2, R3 ; RX-RY
+		JL NO_HEX   ; еякх яхлбнк < 41 рн щрн ме HEX,
+		MOV 46, R3
+		CMPB R2, R3 ; RX-RY
+		JG NO_HEX ; еякх яхлбнк > 46 рн щрн ме HEX,
+
+	THIS_DIGIT:
+		MOV 1, R0   ; б HEX еярэ жхтпш онщрнлс ъбкъеряъ
+		JMP LOOP ; опшцюел напюрмн
+
+NO_HEX:
+	MOV 0,R0
+	JMP FINISH
+
+END:
+	CMP 0, R0
+	JZ NO_HEX
+	JMP FINISH
+
+FINISH:
+	STOP
+
+TEXT:
+	DATA "A2H"
+
